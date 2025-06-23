@@ -41,9 +41,9 @@ public class Converter {
         BigInteger two = new BigInteger("2");
         for (int i = binary.length() - 1; i >= 0; i--) {
             if (binary.charAt(i) == '1') {
-                decimal = decimal.add(two);
+                decimal = decimal.add(base);
             }
-            base = base.multiply(two);
+            base = base.nextProbablePrime();
         }
         return decimal;
     }
