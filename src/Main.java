@@ -1,14 +1,9 @@
 
 import java.math.BigInteger;
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-
+//i delete the comment blow
 /**
  *
- * @author Maxim
+ * @author Maximilian
  */
 public class Main {
 
